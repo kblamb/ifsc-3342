@@ -70,11 +70,26 @@ body {
 	margin-top: 5px;
 	margin-bottom: 15px;
 }
+
+#content h2{
+	border-top: 5px solid red;
+}
+
+#content h3{
+	border-top: 5px solid orange;
+}
+
+#content a:hover{
+	background:black;
+	color:white;
+}
+
 #footer {
 	background-color: #000;
 	color: #FFF;
 	height: 25px;
 }
+
 #footer h6 {
 	font-size: 12px;
 	line-height: 25px;
@@ -92,4 +107,15 @@ body {
 	border:1px solid #c0c0c0;
 	padding:5px;
 	margin:10px 0 10px 20px;
+}
+.explain{
+	border-top: 5px solid yellow;
+}
+
+.please{
+	border-top: 5px solid green;
+}
+
+.provide{
+	border-top: 5px solid blue;
 }
